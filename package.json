@@ -1,0 +1,35 @@
+{
+  "name": "Sample_App",
+  "version": "1.0.0",
+  "description": "Typescript + SystemJS + JSPM + Angular 1",
+  "main": "main.js",
+  "license": "MIT",
+  "authors": [ ],
+  "dependencies": {
+    "convert-source-map": "^0.4.1",
+    "requires": "^1.0.2",
+    "typescript": "1.5.0-beta"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-mocha": "^2.0.0",
+    "open": "0.0.5",
+    "should": "^4.6.1",
+    "systemjs-builder": "^0.10.4",
+    "traceur": "0.0.84"
+  },
+  "jspm": {
+    "registry": "github",
+    "format": "es6",
+    "dependencies": {
+      "convert-source-map": "npm:convert-source-map@^0.4.1",
+      "path": "npm:path@^0.11.14",
+      "requires": "npm:requires@^1.0.2",
+      "typescript": "npm:typescript@1.5.0-beta"
+    },
+    "devDependencies": {
+      "traceur": "jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}

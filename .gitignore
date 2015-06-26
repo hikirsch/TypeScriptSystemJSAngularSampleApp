@@ -1,0 +1,8 @@
+node_modules/
+jspm_packages/
+build/
+
+.idea/workspace.xml
+.idea/tasks.xml
+
+*.log
